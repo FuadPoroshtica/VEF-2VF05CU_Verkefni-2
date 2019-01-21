@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
     the_time = datetime.now().strftime("%A, %d %b %Y %l:%M %p")    
     return 'Halló heimur! <br>' \
-           '<a href="/about">about </a>' \
+           '<a href="/">about </a>' \
            '<a href="/biography">Biography </a>' \
            '<a href="/pictures">Pictures </a>'
 
